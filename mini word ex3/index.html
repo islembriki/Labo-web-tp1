@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Mini-word </title>
+    <link rel="icon" href="https://th.bing.com/th/id/OIP.yVlIA4sX7Au7c0vtL-a52gHaHa?rs=1&pid=ImgDetMain" type="image/x-icon">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+</html>
+<body style="background-color: #d689c7;background-image: url('https://www.transparenttextures.com/patterns/diagmonds.png');"> 
+    <div class="container-xxl">
+        <div class="row">
+            <br/>
+            <h1 class="text-center" style="font-family:fantasy;">📝 Mini-word 📝</h1>
+        </div>
+        <br/>
+        <div class="row"> 
+            <p id="test-text" style="background-color: bisque;border-radius: 5px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris cursus risus quis lobortis faucibus. Etiam convallis lorem velit, vitae volutpat lacus commodo dignissim. Donec in gravida tortor, volutpat condimentum risus. Fusce sit amet dolor metus. Cras elementum consequat est at porta. Donec dictum facilisis mi quis dapibus. Praesent sagittis leo in felis tincidunt, ut mattis ipsum volutpat. Integer eu dignissim leo, a sagittis nunc. Morbi consectetur, arcu ac condimentum vestibulum, neque eros ultricies sapien, id faucibus mauris sapien ac elit. Suspendisse ut suscipit ipsum, non lacinia orci.</p>
+        </div>
+        <br/>
+        <div class="row gx-2 justify-content-center align-items-center">
+            <div class="col-4">
+                <input type="color" class="form-control" id="color">
+            </div>
+            <div class="col-4">
+                <select class="form-select" aria-label="text-type" id="text-type"style="text-align: center;">
+                    <option value ="0" selected >choose the font-family</option>
+                    <option value="Arial">Arial</option>
+                    <option value="Courier New">Courier New</option>
+                    <option value="Georgia">Georgia</option>
+                    <option value="Comic Sans MS">Comic Sans MS</option>
+                  </select>
+            </div>
+            <div class="col-4">
+                <input type="number" class="form-control" id="size" min="10" max="100" placeholder="Enter the Font size">
+            </div>
+        </div>    
+    </div>
+<script src="code.js"></script>
+</body>
+</html>

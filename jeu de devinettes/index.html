@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title> GUESS THE NUMBER </title>
+    <link rel="icon" href="https://th.bing.com/th/id/OIP.6oGgQd7RJl5-EDdwexbXeQHaHa?rs=1&pid=ImgDetMain" type="image/x-icon">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body style="background-image: url('https://kawaiihoshi.com/wp-content/uploads/2022/08/Pusheen_Zoom_Background_clouds_2020-1536x864.jpg');">  
+<div class="container-xxl text-center">
+    <br />
+    <h1 class="text-center" style="font-family: cursive; color: deeppink;">🔮 Guess the number ! 🔮</h1>
+    <br />
+    <div class="row gx-2 justify-content-center align-items-center">
+        <div class="col-5">
+            <select class="form-select" aria-label="select difficulty" style="text-align: center;">
+                <option selected  value=0 style="color: hotpink; text-align: center;">✨Select difficulty✨</option>
+                <option value="1">🌱 EASY 🌱 </option>
+                <option value="2">🌟 MEDIUM 🌟</option>
+                <option value="3">🔥 HARD 🔥</option>
+              </select>  
+        </div>
+        <div class="col-auto">
+            <button type="button" class="btn" style="background-color:rgba(155, 107, 226, 0.686);color:rgb(143, 63, 16);font-family:cursive;">🌸PLAY 🌸</button>
+        </div> 
+    </div>
+    <br />
+<div id="game-area" class="hidden">
+    <div class="row gx-2 justify-content-center align-items-center">
+        <div class="col-5">
+            <div class="alert alert-warning" role="alert">🎲 Lock in your guess! 🎲</div>
+        </div>
+    </div>
+    <br />
+    <div class="row gx-2 justify-content-center align-items-center">
+        <div class="col-auto">
+            <div class="input-group flex-nowrap">
+                <span class="input-group-text" id="addon-wrapping">💮</span>
+                <input type="number" class="form-control" placeholder="input your number here" aria-label="guess number" aria-describedby="addon-wrapping" >
+              </div>
+        </div>
+        <div class="col-auto">
+            <button type="button" class="btn btn-success" style="background-color: rgb(140, 240, 142);color:rgb(31, 27, 27);font-family:cursive;">🚩GUESS🚩</button>
+        </div>
+    </div>
+    <br />
+    <div class="row gx-2 justify-content-center align-items-center">
+        <div class="col-5">
+            <br />
+            <div class="alert alert-info" role="alert" style="background-color:lightpink;font-size: larger;">🍀 Good luck! 🍀</div>
+        </div>
+    </div>
+    <br />
+    <div class="row gx-2 justify-content-center align-items-center">
+        <div class="col-5">
+            <button type="button" class="btn btn-dark" id="replay" disabled="true">🥀REPLAY🥀</button>
+        </div>
+</div>
+</div>
+ <script src="code.js"></script>
+</body>
+
+</html>

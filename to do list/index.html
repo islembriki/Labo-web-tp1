@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> 💮To-do list💮 </title>
+    <link rel="icon" href="https://cdn3.iconfinder.com/data/icons/valentine-s-day-26/52/31-1024.png" type="image/x-icon">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url('https://img.freepik.com/premium-vector/bunny-seamless-pattern-background_42349-2.jpg?w=740');">
+    <div class="container-xxl">
+        <nav class="navbar bg-body-tertiary" style="text-align: center;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#" >
+                <img src="https://icon-library.com/images/diary-icon/diary-icon-21.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                Jot down all of your plans and thoughts in one signle place and never lose track of your tasks🌸
+              </a>
+            </div>
+          </nav>
+    </div>
+<div class="container-xxl mt-5">
+    <div class="row">
+        <h1 class="text-center" style="font-family: cursive;">📋Your To-Do List📋</h1>
+    </div>
+    <br/>
+    <div class="row gx-2 justify-content-center align-items-center">
+        <div class="col-7">
+            <input type="text" class="form-control" id="tasktext" placeholder="Enter your task here">
+        </div>
+        <div class="col-auto">
+            <button id="addtask">➕</button>
+        </div>
+    </div>
+    <br/>
+    <div class="row gx-2 justify-content-center align-items-center">
+        <div class="col-9">
+            <ul id="tasklist" class="list-group">
+                <!-- the tasks will eventually go here the more we add through the js  -->
+            </ul>
+        </div>
+    </div>
+</div>
+<script src="code.js"></script>
+</body>
+</html>

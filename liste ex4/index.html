@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>✨color-changing list✨</title>
+    <link rel="icon" href="https://th.bing.com/th/id/OIP.yVlIA4sX7Au7c0vtL-a52gHaHa?rs=1&pid=ImgDetMain" type="image/x-icon">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+<style>
+        .container {
+    background: white;
+    width: 90%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+li {
+    background: #ffe6f2;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+ol {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+</style>
+<!-- the cursor pointer is there to add interactivity and to be implemeted in the code js later on  -->
+</head>
+<body style="background-image: url('https://kawaiihoshi.com/wp-content/uploads/2022/09/retro-sanrio-town-wallpaper-1536x1152.jpg');">
+    <div class="container">
+        <br/>
+        <div class="alert alert-warning" role="alert"style="background-color:pink;text-align: center;font-family:cursive;">🧚click on any item and watch the magic happens🧚</div>
+        <br/>
+        <button id="reset" class="btn btn-primary" style="width: 100%;background-color: #fcc3df;">reset</button>
+        <ol id="colorList" style="text-align: center;">
+            <li>🍎 apple</li>
+            <li>🍊 Orange</li>
+            <li>🍌 Banana</li>
+            <li>🍇 Grapes</li>
+            <li>🍉 Watermelon</li>
+        </ol>
+    </div>
+    <script src="code.js"></script>
+</body>
+</html>
