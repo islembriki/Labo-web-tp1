@@ -1,6 +1,6 @@
 # My Project
 This project contains four exercises: **Jeu de Devinettes , Liste , To-Do List, and Mini Word**.
-📢it is to not i have used in my project bootstrap as aframework for css , thus maing installing the dependencies  after cloning the project COMPULSORY !!!
+📢it is to note i have used in my project bootstrap as aframework for css , thus maing installing the dependencies  after cloning the project COMPULSORY !!!
 ## Installation
 1. Clone this repository:
    '''
